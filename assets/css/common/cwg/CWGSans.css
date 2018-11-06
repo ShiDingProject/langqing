@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "CWG Sans";
+  src: url("CWG Sans.woff2") format("woff2"),
+       url("CWG Sans.woff") format("woff"),
+       url("CWG Sans.ttf") format("truetype"),
+       url("CWG Sans.eot") format("embedded-opentype"),
+       url("CWG Sans.svg") format("svg"),
+       url("CWG Sans.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}

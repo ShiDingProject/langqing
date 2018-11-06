@@ -1,0 +1,107 @@
+@import url(common/normalize.css);
+@import url(common/common.css);
+#main{
+    background: #FFFFFF;
+}
+html{
+    height: 100%;
+    overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif,'PingFangSC-Regular';
+}
+body{
+    height: 100%;
+    overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(../img/right_images.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left 28% center;
+    width: 1280px;
+    margin: 0px auto;
+}
+.body-login{
+    width: 298px;
+    height: 380px;
+    position: absolute;
+    top: 55%;
+    right: 20%;
+    margin-top: -190px;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0 0 1px 0 rgba(102,114,129,0.00);
+    border-radius: 4px;
+}
+.body-login .logo{
+    display: inline-block;
+    width: 233px;
+    height: 45px;
+    position: absolute;
+    left: 50%;
+    margin-left: -116.5px;
+    margin-top: -74px;
+}
+.body-login .title{
+    text-align: center;
+    padding: 24px 0 37px 0;
+    font-size: 18px;
+    color: #667281;
+    letter-spacing: 10px;
+}
+.body-login .form{
+    padding: 0 23px;
+}
+.body-login .form .input1{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    height: 42px;
+    padding: 0 12px;
+    font-size: 13px;
+}
+.body-login .form .input2{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    height: 42px;
+    padding: 0 12px;
+    font-size: 13px;
+}
+.body-login .form .input1::placeholder,
+.body-login .form .input2::placeholder{
+    font-size: 13px;
+    color: #667281;
+    letter-spacing: 0;
+}
+.body-login .form p{
+    padding: 0 0 18px 0;
+}
+.body-login .form .input3{
+    vertical-align: middle;
+}
+.body-login .form .remember-username{
+    font-size: 12px;
+    color: #667281;
+    letter-spacing: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.body-login .form .login{
+    display: inline-block;
+    width: 100%;
+    height: 44px;
+    background: #4A90E2;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 44px;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
